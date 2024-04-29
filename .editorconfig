@@ -1,0 +1,32 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{yuck,yk}]
+indent_style = tab
+indent_size = 6
+
+[*.{yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+[*.{css,scss}]
+indent_style = space
+indent_size = 4
+
+[launch_dashboard]
+indent_style = space
+indent_size = 4
+
+[*.{sh,bash,zsh}]
+line_ending = lf
+indent_style = space
+indent_size = 4

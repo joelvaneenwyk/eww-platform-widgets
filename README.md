@@ -1,6 +1,6 @@
-<!-- EWW Widgets -->
+# EWW Widgets
 
-# Widgets
+<!-- markdownlint-disable MD033 MD045 -->
 
 <p align="left">
   <img src="https://img.shields.io/github/license/adi1090x/widgets?style=for-the-badge">
@@ -29,12 +29,14 @@
 
 - Install Elkowar’s Wacky Widgets - [Instructions](https://elkowar.github.io/eww)
 - Clone this repository
-```
-$ git clone --depth=1 https://github.com/adi1090x/widgets.git
-```
+
+    ```bash
+    git clone --depth=1 https://github.com/adi1090x/widgets.git
+    ```
+
 - Create eww config directory : **`~/.config/eww`**
 - Copy everything from `eww` directory to **`~/.config/eww`**
-- Install the required fonts from **`fonts`** directory
+- Install the required fonts from **`fonts`** director
 
 ### Tips
 
@@ -46,6 +48,6 @@ $ git clone --depth=1 https://github.com/adi1090x/widgets.git
 
 ### FYI
 
-- Don't use my black picture for your profile. 
+- Don't use my black picture for your profile.
 - Music widget is for mpd/mpc, I don't use spotify, I don't care.
 - Made for 1920x1080 displays only.

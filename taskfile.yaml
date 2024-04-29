@@ -1,0 +1,21 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    deps: [install]
+    cmds:
+      - cmd: ./eww/dashboard/launch_dashboard
+    silent: false
+
+  install:
+    cmds:
+      - cmd: cp -rf ./eww/ ~/.config/eww/
+      - cmd: cp -f ./fonts/*.ttf ~/.fonts/
+      - cmd: cp -f ./fonts/JetBrainsMono/*.ttf ~/.fonts/
+      - cmd: fc-cache -fv
+    silent: true

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "launch_dashboard": "shellscript",
+    "*.ejs": "html"
+  }
+}

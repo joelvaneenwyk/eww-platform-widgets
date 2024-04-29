@@ -1,5 +1,12 @@
 {
   "recommendations": [
-    "eww-yuck.yuck"
+    "eww-yuck.yuck",
+    "davidanson.vscode-markdownlint",
+    "sibiraj-s.vscode-scss-formatter",
+    "ecmel.vscode-html-css",
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "stylelint.vscode-stylelint"
   ]
 }
